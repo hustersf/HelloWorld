@@ -1,13 +1,12 @@
 package 剑指offer;
 
 /**
- *  从尾到头打印链表
+ * 输入一个整数，输出该数二进制表示中1的个数。其中负数用补码表示
  */
 public class Solution11 {
 
 
-
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
     }
 }

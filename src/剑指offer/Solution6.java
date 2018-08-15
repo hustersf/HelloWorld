@@ -28,6 +28,5 @@ public class Solution6 {
         int[] arr={3,4,5,6,1,2};
         Solution6 s6=new Solution6();
         System.out.println(s6.minNumberInRotateArray(arr));
-
     }
 }

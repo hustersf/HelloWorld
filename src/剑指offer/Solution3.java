@@ -5,7 +5,7 @@ import java.util.Stack;
 
 /**
  * 从尾到头打印链表
- * 利用栈的
+ * 利用栈的先进后出
  */
 public class Solution3 {
 
