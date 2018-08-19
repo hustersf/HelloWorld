@@ -5,8 +5,22 @@ package 剑指offer;
  */
 public class Solution11 {
 
+    public int NumberOf1(int n) {
+
+        String s = Integer.toBinaryString(n);
+        int num = 0;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '1') {
+                num++;
+            }
+        }
+        return num;
+    }
 
     public static void main(String[] args) {
+
+        Solution11 s11 = new Solution11();
+        System.out.println(s11.NumberOf1(4));
 
     }
 }
